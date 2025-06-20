@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cuidado y Bienestar Canino</title>
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+/>
+<style>
+body {
+  background-color: #fafafa;
+  color: #333;
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+.header {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 900;
+  padding: 40px;
+  background: linear-gradient(90deg, #ffba08, #bb8b00);
+  color: #fff;
+  border-radius: 12px;
+  border: 2px solid #ffba08;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: default;
+  user-select: none;
+  transition: transform 0.3s ease;
+}
+.header:hover {
+  transform: scale(1.05);
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.content-item {
+  font-size: 20px;
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid #ffba08;
+  background-color: #fff3d3;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+}
+.content-item:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(255, 186, 8, 0.4);
+}
+
+.content-item.small {
+  flex: 1 1 30%;
+}
+.content-item.medium {
+  flex: 1 1 45%;
+}
+.content-item.large {
+  flex: 1 1 100%;
+}
+.content-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 10px 0;
+}
+.footer {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 30px;
+  background-color: #ffe8a3;
+  border-radius: 12px;
+  border: 2px solid #ffba08;
+  margin-top: 30px;
+}
+
+/* Estilos para títulos y párrafos */
+h3 {
+  font-size: 28px;
+  font-weight: 900;
+  color: #bb8b00;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #5a4a00;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">Cuidado y Bienestar Canino</div>
+    <div class="content">
+      <div class="content-item small">
+        <h3>Consejos para la alimentación</h3>
+        <img src="download_1.jpg" alt="Perro alimentado" />
+        <p>- Prefiere alimento específico para su edad y tamaño.</p>
+        <p>- Mantén horarios regulares para sus comidas.</p>
+        <p>- Evita darle comida humana que pueda ser tóxica.</p>
+        <p>- Siempre debe tener agua fresca disponible.</p>
+      </div>
+      <div class="content-item medium">
+        <h3>Como mantener a tu perro feliz</h3>
+        <img src="download.jpg" alt="Perros felices" />
+        <p>- Bríndale cariño y atención diaria.</p>
+        <p>- Sácale a pasear y juega con él regularmente.</p>
+        <p>- Proporciónale un espacio cómodo y con luz natural.</p>
+        <p>- Socializa con otros perros y personas.</p>
+        <p>- Mantén una rutina y alimentación balanceada.</p>
+      </div>
+      <div class="content-item large">
+        <h3>Señales de alerta en tu perro</h3>
+        <img src="images.jpg" alt="Señales de alerta en perros" />
+        <p>- Cambios en su apetito o sed.</p>
+        <p>- Letargo o falta de energía.</p>
+        <p>- Vómitos o diarrea frecuentes.</p>
+        <p>- Tos, dificultad para respirar o estornudos.</p>
+        <p>- Cambios en el pelaje o piel (caída, sequedad, sarpullido).</p>
+        <p>- Cambios en comportamiento, como agresividad o tristeza.</p>
+      </div>
+    </div>
+    <div class="footer">Roberto Adriel De La Barra Montes</div>
+  </div>
+</body>
+</html>
+
